@@ -11,7 +11,7 @@
 8. [References](References)
    
 ### Project Overview 
-Created a Sales Dashboard for a theoretical bicycle retail company, the project enhanced data-driven decisions. It involved strategic SQL data extraction, ensuring accuracy. The subsequent design phase utilised Excel and Tableau for a dynamic, visually appealing dashboard.
+This data analysis project was created to unveil the sales performance of a theoretical bicycle retail company from 2016 to 2018. Through a comprehensive analysis of diverse sales data facets, my aim is to pinpoint trends, derive data-driven insights, propose recommendations, and attain a profound comprehension of the company's overall performance. The strategic extraction of data using SQL was meticulously executed to guarantee precision. Following this, the design phase seamlessly integrated Excel and Tableau, resulting in a dynamic and visually captivating dashboard.
 
 ![image](https://github.com/Ashir-Bashir/Bikestores-Data-Analysis-Project/assets/152665079/857993e9-09e6-4548-a7a9-2ed8be67195c)
 
