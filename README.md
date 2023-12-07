@@ -21,7 +21,9 @@ This data analysis project was created to unveil the sales performance of a theo
 BikeStores data: The primary data set used for this project is 'BikeStores.xlsx' containing detailed information about each sale made by the company.
 ### Tools
 PostgresQL-Extracting data and aggregated data from multiple tables
+
 Excel- Creating comprehensive Dashboard
+
 Tableau- Creating comprehensive Dashboard
 ### Data Cleaning/Preperation
 In the intial data preperation stage, i performed the following tasks:
@@ -31,6 +33,8 @@ In the intial data preperation stage, i performed the following tasks:
 2. Handling missing values
 
 3. Data cleaning and formating
+   
+4. Visual Checking for Data Quality
 
 ### Exploratory Data Analysis (EDA)
 EDA involved exploring the sales data to answer key questions, such as:
@@ -82,17 +86,55 @@ GROUP BY ord.order_id,
 ```
 ### Results/Findings
 The analysis and results are summarised as follows:
-1. The company's bike sales have been increasing from 2016 to 2017 peaking in 2017 before dropping significantly in 2018.
 
-2. The baldwin store and the product category mountain bikes with the brand Trek was the best performing in terms of sales and revenue.
+1. Revenue Trends:
+Revenue increased by $1,136,030.55 from 2016 to 2017 but decreased by $1,821,525.63 from 2017 to 2018. The lowest revenue was observed in 2018.
 
-3. Newman and Boyer was the top customer and sales representative that generated the most revenue from 2016 to 2018 period.
+2. Monthly Revenue:
+The highest revenue months were September 2016, June 2017, and April 2018. However, a significant drop in revenue occurred in June 2018.
+
+3. Total Units and Customers:
+Total units sold increased by 436 from 2016 to 2017 but dropped significantly by 1,783 from 2017 to 2018. The number of customers increased by 57 in 2017 but decreased by 414 in 2018.
+
+4. Bike Sales by Store and Brand:
+Baldwin Bikes store consistently led in bicycle sales, while Rowlette store consistently reported the lowest sales throughout the three-year period from 2016 to 2018. Additionally, Trek was the most popular brand, and Ritchey was the least popular across the three years.
+
+5. Bike Category Insights:
+Mountain bikes were the most popular, generating the highest revenue, while Children's bicycles were the least popular and generated the lowest revenue. The shift from Mountain bikes to Road bikes in 2018 suggests a potential change in customer preferences.
+
+6. Revenue by State:
+New York City generated the most revenue from 2016 to 2018, followed by California and Texas. Focusing efforts and tailoring services to customers in NYC could be beneficial.
+
+7. Sales Representatives Performance:
+Boyer and Daneil were the highest revenue-earning sales reps, while Vargras and Terell performed at a lower level. Investigating the reasons behind underperformance is recommended.
+
+8. Top Customers:
+The top revenue-generating customers varied each year, indicating changing preferences. Investigating why some customers are not returning is crucial, considering factors like product preferences, alternative transport options, and changing buying behaviors.
 
 ### Recommendations
 Based on the analysis, I woudld recommend the following actions:
+1. Revenue Downturn Analysis:
+Investigate the reasons for the significant revenue decrease in 2018 to identify potential issues affecting sales.
 
-- Invest in marketing and promotions during peak sale seasons to maximise revenue.
-- 
+2. Customer Retention Strategies:
+Implement strategies to understand why certain customers are not returning, considering changes in preferences and the emergence of alternative transportation options like electric scooters.
+
+3. Product Focus:
+Shift focus towards adult categories of bicycles, as evidenced by the decline in popularity of children's bicycles. This aligns with the shift from Mountain bikes to Road bikes.
+
+4. Sales Representative Performance:
+Conduct a thorough analysis of underperforming sales reps (Vargras and Terell) to identify areas for improvement or additional support.
+
+5. Adapt to Changing Trends:
+Stay informed about changing customer preferences and market trends, adjusting product offerings and marketing strategies accordingly.
+
+6. Tailored Services in Key States:
+Tailor services and marketing efforts to customers in high-revenue-generating states, particularly New York City.
+
+7. Regular Customer Insights:
+Establish mechanisms to regularly gather insights into customer preferences, purchasing behaviors, and satisfaction to adapt the business strategy accordingly.
+
+8. By addressing these findings and implementing the recommended strategies, the bicycle company can enhance its overall performance and adapt to the dynamic market landscape.
 
 ### Limitations
 
