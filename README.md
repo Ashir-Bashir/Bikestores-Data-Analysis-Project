@@ -8,7 +8,8 @@
 5. [Exploratory Data Analysis](Exploratory-Data-Analysis)
 6. [Results/Findings](Results/Findings)
 7. [Recommendations](Recommendations)
-8. [References](References)
+8. [Limitations](Limitations)
+9. [References](References)
    
 ### Project Overview 
 This data analysis project was created to unveil the sales performance of a theoretical bicycle retail company from 2016 to 2018. Through a comprehensive analysis of diverse sales data facets, my aim is to pinpoint trends, derive data-driven insights, propose recommendations, and attain a profound comprehension of the company's overall performance. The strategic extraction of data using SQL was meticulously executed to guarantee precision. Following this, the design phase seamlessly integrated Excel and Tableau, resulting in a dynamic and visually captivating dashboard.
